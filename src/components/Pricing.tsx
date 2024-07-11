@@ -1,4 +1,4 @@
-import { pricingOptions } from "../constants";
+import { pricingOptions } from "../constants/index";
 import { CheckCircle2 } from "lucide-react";
 
 const Pricing = () => {

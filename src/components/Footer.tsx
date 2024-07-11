@@ -1,4 +1,8 @@
-import { resourcesLinks, platformLinks, communityLinks } from "../constants";
+import {
+  resourcesLinks,
+  platformLinks,
+  communityLinks
+} from "../constants/index";
 
 const Footer = () => {
   return (

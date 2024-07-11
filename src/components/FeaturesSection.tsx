@@ -1,4 +1,4 @@
-import { features } from "../constants";
+import { features } from "../constants/index";
 
 const FeaturesSection = () => {
   return (
