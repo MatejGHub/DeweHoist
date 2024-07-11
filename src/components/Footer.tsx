@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-wrap justify-center my-4 mx-6">
         <div className="flex flex-col me-4 ">
           <h2 className="my-3">Resources</h2>
-          {resourcesLinks.map((link) => {
+          {resourcesLinks.map((link: any) => {
             return (
               <ul>
                 <li className="text-sm text-neutral-400 mb-2">
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col me-5">
           <h2 className="my-3">Platforms</h2>
-          {platformLinks.map((link) => {
+          {platformLinks.map((link: any) => {
             return (
               <ul>
                 <li className="text-sm text-neutral-400 mb-2">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col ">
           <h2 className="my-3">Community</h2>
-          {communityLinks.map((link) => {
+          {communityLinks.map((link: any) => {
             return (
               <ul>
                 <li className="text-sm text-neutral-400 mb-2">

@@ -6,7 +6,7 @@ const Pricing = () => {
     <div className="flex flex-col justify-center m-8 text-center tracking-wider">
       <h2 className="text-5xl">Pricing</h2>
       <div className="flex flex-wrap tracking-wide mt-10 justify-center gap-10">
-        {pricingOptions.map((pricingOption) => {
+        {pricingOptions.map((pricingOption: any) => {
           return (
             <div className="border border-neutral-700 rounded-md bg-neutral-900 text-start p-5  w-full md:w-1/3 lg:w-1/4">
               <div className="text-xl lg:text-3xl mb-5">
@@ -26,7 +26,7 @@ const Pricing = () => {
               </div>
               <div>
                 <div>
-                  {pricingOption.features.map((feature) => {
+                  {pricingOption.features.map((feature: any) => {
                     return (
                       <div className="flex flex-row my-8 text-sm">
                         <div>

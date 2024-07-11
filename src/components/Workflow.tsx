@@ -19,7 +19,7 @@ const Workflow = () => {
         <div className="w-full lg:w-1/2 p-2 text-center justify-center">
           {checklistItems.map((checkListItem: any, index: any) => {
             return (
-              <div className="mb-12 mt-4 flex">
+              <div key={index} className="mb-12 mt-4 flex">
                 <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-3 p-2 justify-center items-center rounded-full">
                   <CheckCircle2 />
                 </div>

@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import { navItems } from "../constants/index";
+import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 

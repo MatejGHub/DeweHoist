@@ -10,7 +10,7 @@ const Testimonials = () => {
         </h2>
       </div>
       <div className="flex flex-wrap justify-center gap-5 p-5 ">
-        {testimonials.map((testimonial) => {
+        {testimonials.map((testimonial: any) => {
           return (
             <div className="w-full md:w-1/3 lg:w-1/4 bg-neutral-900 p-3 rounded-md">
               <div className="text-neutral-500 text-sm text-start mb-4">

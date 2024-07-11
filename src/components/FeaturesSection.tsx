@@ -14,7 +14,7 @@ const FeaturesSection = () => {
         </span>
       </h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center justify-center pt-10 px-5 ">
-        {features.map((feature, index) => {
+        {features.map((feature: any, index: any) => {
           return (
             <div
               key={index}
